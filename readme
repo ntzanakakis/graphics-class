@@ -1,3 +1,7 @@
+This was a very rushed (15 days) project and it's my biggest regret that i didn't more time to enjoy it and improve on it.
+At this state, it's less of an actual game and more of a shell to work on for an actual game.
+Nevertheless I still loved the experience and would gladly redo all of it given enough time.
+
 Scripts:
 Playermovement: Responsible for storing the position of the player and all relevant info about that position. Also responsible for the move animations.
  game_button: UI Functions (buttons, texts) and secondary game manager functions, e.g. implements part of plot purchasing.
@@ -16,16 +20,10 @@ SC_BackgroundScaler: scales the background image in the main menu
 SC_MainMenu: Implements the main menu
 Scorekeeper: Updates each player money in the UI
 
-
-
 Known bugs: 
 A button at the bottom doesn’t disable. It doesn’t exist in the editor, only once it’s built. Doesn’t appear to mess with turns. It appears to try to buy a specific plot constantly.
 Per the rules, when someone doesn’t own hotels and passes the entry purchase line and stops at a hotel purchase tile, they can try to buy a hotel and then buy an entrance. In game, it doesn’t allow to buy an entrance if a hotel doesn’t exist when passing from that spot.
 Per the rules, when someone crosses the line mentioned above, they can perform the action at any time of their turn. In game it must be executed first (before plot or hotel purchase) otherwise the turn changes and the next player gets it.
-
-
-
-
 
 Known issues:
 The information text (lower right) is not very helpful (it was a last minute addition)
