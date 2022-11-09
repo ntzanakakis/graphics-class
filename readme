@@ -1,6 +1,7 @@
 This was a very rushed (15 days) project and it's my biggest regret that i didn't take more time to enjoy it and improve on it.
 At this state, it's less of an actual game and more of a shell to work on for an actual game.
 Nevertheless I still loved the experience and would gladly redo all of it given enough time.
+One prefab asset is missing due to size
 
 Scripts:
 Playermovement: Responsible for storing the position of the player and all relevant info about that position. Also responsible for the move animations.
