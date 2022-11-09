@@ -1,0 +1,39 @@
+Scripts:
+Playermovement: Responsible for storing the position of the player and all relevant info about that position. Also responsible for the move animations.
+ game_button: UI Functions (buttons, texts) and secondary game manager functions, e.g. implements part of plot purchasing.
+StateManager: The game manager. Contains all basic info about the players (money, amount of players, playerID, dice roll results, plot choice e.g. to buy hotels), starts the next turn.
+EntranceSelector: plot purchase.
+Tile: contains basic info about each tile.
+Plots: Similar to tile but for plots
+PassPoints: performs the necessary actions when passing through a pass point
+DiceSides: returns the side the 3d dice landed
+Dicescript: implements the 3d dice
+BuildDicescript: same as dicescript, but for the build dice
+CurrentPlayerText: changes the current player
+Ownerships: changes the text about the ownership
+PlotButtonNamer: changes the names of the plot purchase buttons
+SC_BackgroundScaler: scales the background image in the main menu
+SC_MainMenu: Implements the main menu
+Scorekeeper: Updates each player money in the UI
+
+
+
+Known bugs: 
+A button at the bottom doesn’t disable. It doesn’t exist in the editor, only once it’s built. Doesn’t appear to mess with turns. It appears to try to buy a specific plot constantly.
+Per the rules, when someone doesn’t own hotels and passes the entry purchase line and stops at a hotel purchase tile, they can try to buy a hotel and then buy an entrance. In game, it doesn’t allow to buy an entrance if a hotel doesn’t exist when passing from that spot.
+Per the rules, when someone crosses the line mentioned above, they can perform the action at any time of their turn. In game it must be executed first (before plot or hotel purchase) otherwise the turn changes and the next player gets it.
+
+
+
+
+
+Known issues:
+The information text (lower right) is not very helpful (it was a last minute addition)
+The hotel purchase die is not a special die.
+Entrances don’t have a 3d model or text. Players must remember their locations. However, the functionality is fully implemented.
+The quest that asks how many hotels the players wants to buy doesn’t disable when it should (it disables in a different condition, maybe during free build)
+Camera angles need adjusting
+Extra requirements ask for 4 ξενοδοχεία per plot. The in-game board is an original game board copy.
+Dice may get stuck on the invisible wall edges. Unstuck functionality exists but it may change the result of the roll.
+The dice have wrong sides (the sides opposite of each other must have a sum of 7)
+	
