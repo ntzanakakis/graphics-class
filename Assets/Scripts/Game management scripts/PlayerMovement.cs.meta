@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 30c2ab41feb2bb14685196864d4c87db
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hotelObj: {fileID: 660820075882624158, guid: b082b048cec807544bdcf11a1d1c9f57, type: 3}
+  - StartingTile: {fileID: -8604820142303935333, guid: 1a8607f712a04594f836ca69a7762cfd, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
